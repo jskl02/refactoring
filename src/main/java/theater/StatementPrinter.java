@@ -11,8 +11,6 @@ public class StatementPrinter {
     private final Invoice invoice;
     private final Map<String, Play> plays;
 
-
-
     public StatementPrinter(Invoice invoice, Map<String, Play> plays) {
         this.invoice = invoice;
         this.plays = plays;
